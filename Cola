@@ -1,0 +1,11 @@
+else
+{
+Nodo anterior=newNodo();
+Nodo temporal = cola;
+ while (temporal ==null)
+{
+anterior=temporal;
+temporal=temporal.siguiente;
+}
+anterior.siguiente=nodoNuevo;
+}
